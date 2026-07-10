@@ -1,0 +1,20 @@
+[project]
+name = "hsv_cw_dialog"
+version = "0.1.0"
+authors = [
+  { name="Marko Đogatović", email="djogatovic@gmail.com" },
+]
+description = "Simple Tkinter HSV color wheel dialog."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/mdjogatovic/hsv_cw_dialog.git"
+
+
