@@ -2,6 +2,12 @@
 
 This Python package implements a modal color selection dialog based on the HSV (Hue, Saturation, Value) color model. It provides an intuitive graphical interface where users can pick colors by clicking on a circular color wheel and adjusting brightness with a slider. The dialog is designed to be easily integrated into any Python Tkinter application that requires color input, such as graphic editors, data‑visualisation tools, or custom GUI utilities.
 
+__Installation:__
+
+```
+pip install https://github.com/mdjogatovic/hsv_cw_dialog/releases/download/v0.1.0/hsv_cw_dialog-0.1.0-py3-none-any.whl
+```
+
 ![HSV color wheel dialog](hsv_cw_dialog.png)
 
 __Usage:__
