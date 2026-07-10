@@ -17,7 +17,7 @@ def get_color(parent):
     if color:
         parent["bg"] = color["hex"]
 
-b = tk.Button(root, text="Select Color", command=get_color(root))
+b = tk.Button(root, text="Select Color", command=lambda: get_color(b))
 b.pack()
 
 tk.mainloop()
