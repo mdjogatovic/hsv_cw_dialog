@@ -268,7 +268,7 @@ class color_selector(tk.Canvas):
         self.s = s
         self.v = v
 
-        width:float = int(self["width"])
+        width:int = int(self["width"])
         cx:int
         cy:int
         cx, cy = width // 2, width // 2
